@@ -1,0 +1,17 @@
+span.cell {
+  height: 15vw;
+  width: 15vw;
+  border: 2px solid navy;
+  margin: 10px;
+  display: inline-block;
+}
+
+/*span.active {
+  background-color: pink;
+}*/
+
+
+span.cell:hover {
+  cursor: pointer;
+  border-color: yellow;
+}

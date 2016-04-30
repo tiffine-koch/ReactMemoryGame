@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <!-- <script src="https://fb.me/react-15.0.1.js"></script> -->
+  <!-- <script src="https://fb.me/react-dom-15.0.1.js"></script> -->
+  <!-- <script src="https://code.jquery.com/jquery-2.2.3.js"   integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4="   crossorigin="anonymous"></script> -->
+  <script src="jspm_packages/system.js"></script>
+  <script src="config.js"></script>
+  <style>
+    .cell {
+      height: 15vw;
+      width: 15vw;
+      border: 1px solid #777;
+      display: inline-block;
+      margin-right: 4px;
+      cursor: pointer;
+    }
+    .active {
+      background-color: #9d9df3;
+    }
+    .correct {
+      background-color: green;
+    }
+    .incorrect {
+      background-color: red;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div id="react">Loading....</div>
+  <hr>
+  <script>
+    System.import('main.js');
+  </script>
+</body>
+</html>
